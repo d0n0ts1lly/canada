@@ -4292,7 +4292,7 @@ body {
 }
 
 .sub-header--korea:after {
-    background: url("../img/korea-header-bg.jpg") top center no-repeat;
+    background: url("img/korea-header-bg.jpg") top center no-repeat;
     background-size: cover
 }
 
