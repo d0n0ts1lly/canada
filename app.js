@@ -1199,7 +1199,7 @@
                     return "moto" === this.carType ? parseFloat(this.calculatorVarsProps.motoDelivery.val) : ["minivan", "miniven", "heavy"].includes(this.carType) ? parseFloat(this.calculatorVarsProps.heavyMinivanDelivery.val) : ["mediumtruck"].includes(this.carType) ? parseFloat(this.calculatorVarsProps.mediumtruckDelivery.val) : parseFloat(this.calculatorVarsProps.kyivDelivery.val)
                 },
                 services: function() {
-                    return parseFloat(this.calculatorVarsProps.services.val)
+                    return parseFloat(this.calculatorVarsProps.services.val)+100
                 },
                 register: function() {
                     if (3 === this.fuelId)
