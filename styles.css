@@ -4310,7 +4310,7 @@ body {
 }
 
 .sub-header--usa:after {
-    background: url("../img/usa-header-bg.jpg") bottom center no-repeat;
+    background: url("img/usa-header-bg.jpg") bottom center no-repeat;
     background-size: cover
 }
 
