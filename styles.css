@@ -4301,7 +4301,7 @@ body {
 }
 
 .sub-header--canada:after {
-    background: url("../img/canada-header-bg.jpg") center bottom no-repeat;
+    background: url("img/canada-header-bg.jpg") center bottom no-repeat;
     background-size: cover
 }
 
